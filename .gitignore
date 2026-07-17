@@ -1,0 +1,17 @@
+# Dependencies and generated output
+node_modules/
+coverage/
+output/
+.playwright-cli/
+*.log
+
+# Local environment and operating-system files
+.DS_Store
+.env
+.env.*
+!.env.example
+
+# Large local media and private working notes
+*.mp4
+*.mov
+jobs/
